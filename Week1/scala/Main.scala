@@ -9,7 +9,8 @@ import scala.io.StdIn.readLine
   val myClosedWord : String = fixSize(readLine().replaceAll("\\s", ""), n)
   val myOpenList : List[Char] = myOpenWord.toList
   val myClosedList : List[Char] = myClosedWord.replaceAll("\\s", "").toList
-  val lang = "ru"
+  println("Enter Language 'ru' or 'en'")
+  val lang = readLine().replaceAll("\\s", "")
   val langnumber = (if (lang=="ru") 33 else 26)
 
   println("Open Word : " ++ myOpenWord)
