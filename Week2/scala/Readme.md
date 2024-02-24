@@ -1,2 +1,2 @@
 ## Info
-Change fCipher if need!!!
+Change **fCipher** function if need!!!
